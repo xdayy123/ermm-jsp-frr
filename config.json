@@ -1,0 +1,21 @@
+{
+	"token": process.env.TOKEN,
+	"owners": [
+		"1392749701215948811",
+		"1214534088526925904"
+	],
+	"prefix": "+",
+	"color": "#6495ed",
+	"titre": "Support",
+	"description": "Pour contacter le staff, veuillez sélectionner une raison",
+	"tfooter": "Support",
+	"option1": "Problème bot",
+	"option2": "Suggestion",
+	"option3": "Autre",
+	"option4": "",
+	"ctitre": "​🚧​ Captcha",
+	"cdescription": "Clique sur le bouton ci-dessous pour te vérifier",
+	"ccolor": "#6495ED",
+	"cimage": "https://i.imgur.com/GcFoFHn.gif",
+	"cemoji": "​<verified_z_tick:1432612014827503627>​"
+}
