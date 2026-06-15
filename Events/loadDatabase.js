@@ -38,6 +38,7 @@ const dbcreate = () => {
 			`CREATE TABLE IF NOT EXISTS owner (id TEXT PRIMARY KEY)`,
 			`CREATE TABLE IF NOT EXISTS blacklist (id TEXT PRIMARY KEY)`,
 			`CREATE TABLE IF NOT EXISTS ghostping (guild TEXT PRIMARY KEY, channels TEXT)`,
+                        `CREATE TABLE IF NOT EXISTS ticket (guild TEXT PRIMARY KEY, category TEXT)`,
 			`CREATE TABLE IF NOT EXISTS soutien (guild TEXT PRIMARY KEY, id TEXT, texte TEXT)`,
 			`CREATE TABLE IF NOT EXISTS public (statut TEXT, guild TEXT, PRIMARY KEY (statut, guild))`,
 			`CREATE TABLE IF NOT EXISTS permissions (perm INTEGER, id TEXT, guild TEXT, PRIMARY KEY (perm, id, guild))`,
